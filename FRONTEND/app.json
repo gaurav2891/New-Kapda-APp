@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Kapda Bazar",
+    "slug": "kapda-bazar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/play_store_512.png",
+    "splash": {
+      "image": "./assets/1024.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/1024.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "VIBRATE",
+        "ACCESS_NETWORK_STATE",
+        "READ_EXTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE",
+        "READ_PHONE_STATE",
+        "SYSTEM_ALERT_WINDOW",
+        "WRITE_EXTERNAL_STORAGE",
+        "INTERNET",
+        "FOREGROUND_SERVICE",
+        "ACCESS_WIFI_STATE"
+      ],
+      "package": "com.gauarv.kapdaBazar",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
